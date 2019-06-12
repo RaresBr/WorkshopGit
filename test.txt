@@ -1,5 +1,9 @@
  private handleEvent(a, b) {
-    var result = a/b;
-    console.log(a, b, result)
-    return result;
+    if(b != 0){
+        var result = a/b;
+        console.log(a, b, result)
+        return result;
+    } else{
+        throw error;
+    }
 }
