@@ -6,3 +6,6 @@ private handleall(a, b, x){
 	handlestuff(x);
 	echo(a + b);
 }
+ private handleEvent(a, b, c) {
+   return a + b + c;
+  }
