@@ -1,3 +1,0 @@
-SaveTheWorld(a, b) {
-   return a * b;
-  }
