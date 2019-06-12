@@ -1,3 +1,8 @@
- private handleEvent(a, b) {
-   return a + b;
-  }
+public handlestuff(x){
+	echo('---x');
+}
+
+private handleall(a, b, x){
+	handlestuff(x);
+	echo(a + b);
+}
